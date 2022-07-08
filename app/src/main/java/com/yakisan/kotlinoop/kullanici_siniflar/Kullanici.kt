@@ -1,4 +1,4 @@
-package com.yakisan.kotlinoop.kullanici_encapsulation
+package com.yakisan.kotlinoop.kullanici_siniflar
 
 class Kullanici {
 

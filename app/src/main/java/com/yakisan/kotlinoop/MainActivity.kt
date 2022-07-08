@@ -5,7 +5,7 @@ import android.os.Bundle
 import com.yakisan.kotlinoop.islemler_polymorphism.hayvanlar_dinamik_poly.Hayvan
 import com.yakisan.kotlinoop.islemler_polymorphism.hayvanlar_dinamik_poly.Kopek
 import com.yakisan.kotlinoop.islemler_polymorphism.Islemler
-import com.yakisan.kotlinoop.kullanici_encapsulation.Kullanici
+import com.yakisan.kotlinoop.kullanici_siniflar.Kullanici
 import com.yakisan.kotlinoop.muzik_aletleri_abstraction_interfaces.Gitar
 import com.yakisan.kotlinoop.sanatci_inheritance.OzelSanatci
 
@@ -58,6 +58,14 @@ class MainActivity : AppCompatActivity() {
         val gitar = Gitar()
         gitar.bilgi() //Bilgi veriliyor..
 
+        //Lamba Expressions (Lambda Gösterimi)
+        println("-------Lambda (->) -------")
+        //Geriye değer döndürmeyen lambda
+        val yazdigimiGoster = {yazi : String -> println(yazi)}
+        yazdigimiGoster("Yazı gösteriliyor..")
+        //Geriye değer döndüren lambda
+        val sayilariCarp = {a : Int, b : Int -> println(a * b)} //Int değer döndürür.
+        sayilariCarp(6,5)
 
 
 
