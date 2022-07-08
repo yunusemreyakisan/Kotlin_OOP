@@ -67,6 +67,10 @@ class MainActivity : AppCompatActivity() {
         val sayilariCarp = {a : Int, b : Int -> println(a * b)} //Int değer döndürür.
         sayilariCarp(6,5)
 
+        //Önceden döndürülecek olan değerin türünü belirtme
+        val geriDondur : (Int, Int) -> Int = {a , b -> a*b}
+        geriDondur(1,2)
+
 
 
 
