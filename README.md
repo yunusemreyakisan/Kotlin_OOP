@@ -4,7 +4,7 @@
 Nesne tabanlı/yönelimli programlama (OOP); yazılım tasarımını nesneler ve nesneler üzerinde düzenleyen bir programlama dili modelidir.
 
 ### ➕ Nesne Yönelimli Programlamanın Avantajları
-**Doğal:** Doğal olması sayesinde daha anlaşılır program yazma ve geliştirme imkanı sağlanır. 
+**Doğal:** Doğal olması sayesinde daha anlaşılır program yazma ve geliştirme imkanı sağlanır. \
 **Güvenilirlik :** İyi tasarlanmış, özenle yazılmış nesne yönelimli programlar güvenilirdir.\
 **Yeniden kullanılabilirlik:** İyi hazırlanmış sınıflar oluşturmak zor bir yetenektir, bu noktada soyutlamaya odaklanmayı ve dikkat etmeyi gerektirir.\
 **Sürdürülebilirlik:** Uygulamada bir değişiklik şeffaf olduğu için diğer nesneler otomatik olarak donanımdan fayda sağlayacaktır.\
